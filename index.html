@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PANIER COMMERCIAL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h2>Panier</h2>
+    </header>
+
+    <main class="contener">
+        <table class="tableau">
+               <thead>
+                    <tr>
+                        <td>Nom de l'article</td>
+                        <td></td>
+                        <td></td>
+                        <td>Quantité</td>
+                        <td>Prix unitaire</td>
+                        <td>Sous total</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> <img  class="rice" src="images/sac-riz.webp" alt=""> </td>
+                        <td> sac de riz <p>Suprimé</p></td>
+                        <td></td>
+                        <td> <button class="boton1">-</button>
+                             <input class="compteur1" type="number" value="0">
+                             <button class="boton1">+</button>
+                        </td>
+                        <td>25000</td>
+                        <td> <button class="Sm-sac1">0</button></td>
+                    </tr>
+                    <tr>
+                        <td> <img class="cooking" src="images/marmite.jpg" alt=""> </td>
+                         <td>Marmite<p>Suprimé</p></td>
+                         <td></td>
+                        <td>
+                            <button class="boton1">-</button>
+                                <input class="compteur1" type="number" value="0">
+                                <button class="boton1">+</button>
+                        </td>
+                       <td>3000</td>
+                        <td> <button class="Sm-sac2">O</button></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr> 
+                      <td><input type="text" value="marmitte"></td>
+                       <td><input type="number" value="3000"></td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                      <td><button class="Ajout">Ajouter un article</button></td>
+                    </tr>  
+                </tfoot>
+        </table>
+    </main>
+
+    <footer>
+        <h3>Total =</h3>
+    </footer>
+</body>
+</html>
